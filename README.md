@@ -1,8 +1,6 @@
 <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400">
 <div align="center">
 
-<img src="assets/img/Screenshot/home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600" align="center">
-</div>
 
 ### Alura-Challenge-Front-End-3
 
@@ -10,10 +8,10 @@
 
 ![Badge em desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
 
--   `Semana 1`: Criação das páginas home e descrição do produto responsivas seguindo modelo disponibilizado no figma.:heavy_check_mark:
--   `Semana 2`: Criação das páginas login, todos os produtos, adicionar produtos.:heavy_check_mark:
--   `Semana 3/4`: Adicionar dinamismo a página, validando formulários e dando funcionalidade aos links e botões.
--   :construction: Validação com mensagem personalizada para o rodapé e login adicionadas.
+- `Semana 1`: Creación de páginas de inicio receptivas y descripción del producto siguiendo el modelo disponible en figma.:heavy_check_mark:
+- `Semana 2`: Creación de páginas de inicio de sesión, todos los productos, añadir productos.:heavy_check_mark:
+- `Semana 3/4`: Añadir dinamismo a la página, validando formularios y dando funcionalidad a enlaces y botones.
+- :construcción: Validación con mensaje personalizado para pie de página e inicio de sesión agregado.
 
 #
 
@@ -34,6 +32,4 @@ el reto del proyecto es el desarrollo del área administrativa de un E-commerce.
 
 #
 
-### Acesso ao projeto:
 
-Deploy na versel: (https://alura-challenge-frontend-3.vercel.app/)
