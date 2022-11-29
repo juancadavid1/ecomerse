@@ -29,8 +29,8 @@
 
 ### Descrição do projeto:
 
-Através do Challenge Based Learning, uma metodologia de ensino que a Apple ajudou a criar,
-o desafio do projeto é o desenvolvimento da area administrativa de um E-comerce. Foi disponibilizado um layout no figma e semanalmente, recebemos pelo trello quais seram as tarefas da semana. Não há nenhum passo a passo, apenas a indicação de quais os cursos que podem ajudar no desenvolvimento do projeto ficando a cargo de cada aluno por em pratica os conhecimentos adquiridos.
+A través del aprendizaje basado en desafíos, una metodología de enseñanza que Apple ayudó a crear,
+el reto del proyecto es el desarrollo del área administrativa de un E-commerce. Se puso a disposición un layout en figma y semanalmente recibimos a través de trello cuáles serán las tareas de la semana. No hay un paso a paso, solo una indicación de qué cursos pueden ayudar en el desarrollo del proyecto, dejando que cada estudiante ponga en práctica los conocimientos adquiridos.
 
 #
 
