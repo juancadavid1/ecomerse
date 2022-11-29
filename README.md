@@ -25,7 +25,7 @@
 
 #
 
-### Descrição do projeto:
+### Descripción del Proyecto:
 
 A través del aprendizaje basado en desafíos, una metodología de enseñanza que Apple ayudó a crear,
 el reto del proyecto es el desarrollo del área administrativa de un E-commerce. Se puso a disposición un layout en figma y semanalmente recibimos a través de trello cuáles serán las tareas de la semana. No hay un paso a paso, solo una indicación de qué cursos pueden ayudar en el desarrollo del proyecto, dejando que cada estudiante ponga en práctica los conocimientos adquiridos.
