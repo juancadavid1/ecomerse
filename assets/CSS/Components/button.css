@@ -1,0 +1,53 @@
+.button__primary{
+    width: 8rem;
+    height: 2.75rem;
+
+    font-family: var(--font);
+    color: var(--blue-hundred);
+    font-weight: 600;
+    font-size: 1rem;
+
+    border: 1px solid var(--blue-hundred);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button__primary:hover{
+    background-color: var(--blue-twenty);
+}
+
+.button__secondary{
+    font-family: var(--font);
+    font-weight: 600;
+    background-color: var(--blue-hundred);
+    color: #fff;
+
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.button__secondary:hover{
+    background-color: var(--blue-eighty);
+}
+
+.button__adminstrator{
+    width: 10.5rem;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .button__adminstrator{
+        justify-self: flex-end;
+        margin-left: auto;
+    }
+}

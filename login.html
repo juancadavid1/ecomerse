@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AluraGeek | Login </title>
+    <link rel="icon" type="image" href="assets/img/icons/AluraIcon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/CSS/base.css">
+    <link rel="stylesheet" href="assets/CSS/login.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" role=button title="Home">
+            <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+        </a>
+        <div class="search">
+            <input class="header__search" type="search" name="search" id="search-bar"
+                placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+            <button class="header__search-button" title="Campo de busca">
+                <i class="header__search-icon "></i>
+            </button>
+        </div>
+        <a href="login.html" role=button class="header__button-login button__primary"
+            title="Login do administrador">Login</a>
+    </header>
+
+    <main class="main">
+
+        <form action="" class="login">
+            <h2 class="subtitle login__title">Iniciar Sesion</h2>
+            <label for="email" class="hide">Escriba Su correo</label>
+            <input type="email" name="e-mail" id="email" placeholder="Escriba su correo"
+                class="input-text login__input" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                data-input="email">
+            <!-- Regex de validação do site w3 resource-->
+            <span class="input-message-error" data-error="email"></span>
+
+            <label for="password" class="hide">Escreva sua senha</label>
+            <input type="password" name="senha" id="password" placeholder="Escriba su contraseña"
+                class="input-text login__input" required data-input="password">
+            <span class="input-message-error" data-error="password"></span>
+            <button class="button__secondary" data-send="login">Entrar</button>
+        </form>
+
+    </main>
+
+    <footer class="footer" data-footer="footer">
+    </footer>
+
+    <script src="JS/Controller/Controller.js" type="module"></script>
+    <script src="JS/Controller/LoginController.js" type="module"></script>
+</body>
+
+</html>

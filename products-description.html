@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AluraGeek | Descrição do produto </title>
+    <link rel="icon" type="image" href="assets/img/icons/AluraIcon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/CSS/base.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" role=button title="Home">
+            <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+        </a>
+        <div class="search">
+            <input class="header__search" type="search" name="search" id="search-bar"
+                placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+            <button class="header__search-button" title="Campo de busca">
+                <i class="header__search-icon "></i>
+            </button>
+        </div>
+        <a href="login.html" role=button class="header__button-login button__primary"
+            title="Login do administrador">Login</a>
+    </header>
+
+    <main>
+
+        <article class="products__highlights">
+            <div class="products__highlight-img">
+
+                <img src="assets/img/products/img-produtos-starwars/Caneca-average.png"
+                    alt="Caneca em formato de capacete de Storm Trooper" class="product__img-heighlight">
+            </div>
+            <section class="products__highlights-description">
+                <span class="product__name-highlights">Caneca Storm Trooper</span>
+                <span class="product__value">R$ 60,00</span>
+                <p class="product__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos pariatur ad blanditiis tempora, error sed incidunt illum eius consequatur a dolorum sint fuga? Sint suscipit exercitationem culpa alias repudiandae.</p>
+            </section>
+        </article>
+
+        <section class="products">
+            <section class="products__section">
+
+                <div class="products__section-name">
+                    <h3 class="products__section-title">Produtos similares</h3>
+                    <a href="#" class="products__section-link">Ver Todo</a>
+                </div>
+
+                <div class="products__section-content">
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/Caneca-average.png"
+                            alt="Caneca em formato de capacete de Storm Trooper" class="product__img">
+                        <p class="product__name">Caneca Storm Trooper</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/VaderHead-average.png"
+                            alt="Boneco cabeçudo Darth Vader" class="product__img">
+                        <p class="product__name">muñeco cabezudo Darth Vader</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/Yoda-average.png"
+                            alt="Boneco do mestre Yoda" class="product__img">
+                        <p class="product__name">muñeco de maestro Yoda</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/StormTrooper-average.png"
+                            alt="Boneco Storm Trooper" class="product__img">
+                        <p class="product__name">muñeco Storm Trooper</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/Grogu-average.png" alt="Boneco baby yoda"
+                            class="product__img">
+                        <p class="product__name">muñeco Grogu</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img/products/img-produtos-starwars/Kylo-average.png" alt="Boneco Kylo Ren"
+                            class="product__img">
+                        <p class="product__name">muñeco Kylo Ren</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer" data-footer="footer">
+    </footer>
+    <script src="JS/Controller/Controller.js" type="module"></script>
+</body>
+
+</html>

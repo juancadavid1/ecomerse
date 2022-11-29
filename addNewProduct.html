@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AluraGeek | Novo produto </title>
+    <link rel="icon" type="image" href="assets/img/icons/AluraIcon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/CSS/base.css">
+    <link rel="stylesheet" href="assets/CSS/new-products.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" role=button title="Home">
+            <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+        </a>
+        <div class="search">
+            <input class="header__search" type="search" name="search" id="search-bar"
+                placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+            <button class="header__search-button" title="Campo de busca">
+                <i class="header__search-icon "></i>
+            </button>
+        </div>
+        <a href="#" role=button class="button__primary button__adminstrator" title="Adminstrador">Menu Adminstrador</a>
+    </header>
+
+    <main>
+        <form action="" class="new-product">
+            <h2>Adicionar nuevo producto</h2>
+            <div class="new-product__chose-file">
+                <div class="new-product__drop-area">
+                </div>
+                <span>Ou</span>
+
+                <label for="file" class="new-product__addfile"></label>
+                <input type="file" accept="image/*" name="file" id="file">
+            </div>
+            <label for="product-name" class="new-product__label">Nombre del producto</label>
+            <input type="text" class="input-text" id="product-name" maxlength="20" required data-input="productName">
+            <span class="input-message-error" data-error="productName"></span>
+
+            <label for="product-value" class="new-product__label">Precio do pruducto</label>
+            <input type="text" class="input-text" placeholder="R$" id="product-value" required data-input="value">
+            <span class="input-message-error" data-error="value"></span>
+
+            <label for="description" class="hide">Descripcion do pruduto</label>
+            <textarea name="description" id="description" cols="30" rows="10" class="new-product__text-area"
+                placeholder="Descrição do produto" maxlength="150" required data-input="description"></textarea>
+            <span class="input-message-error" data-error="description"></span>
+
+            <button class="button__secondary button__add" data-send="addProduct">Adicionar produto</button>
+        </form>
+    </main>
+
+    <footer class="footer" data-footer="footer">
+    </footer>
+    <script src="JS/Controller/Controller.js" type="module"></script>
+    <!--  https://github.com/codermarcos/simple-mask-money   -->
+    <script
+        src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+
+</body>
+
+</html>
